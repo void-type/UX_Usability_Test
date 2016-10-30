@@ -4,13 +4,13 @@ This mockup is only to automate testing for more accurate results of A/B testing
 ## How To Use
 1. Download the files.
 2. Install Node.js. Then using the Node Package Manager, NPM, install live-server by using the command: 
-```
-npm install live-server -g
-```
+    ```
+    npm install live-server -g
+    ```
 3. Run the site by navigating to the root site folder and running:
-```
-live-server
-```
+    ```
+    live-server
+    ```
 4. The site will come up blank, this is normal. The subject's actions are timed once they initiate the psuedo-loading of the page.
     1. Instruct the subject to share page via one of the available social media buttons on the page once the page is loaded.
     2. The subject will hit the spacebar to initiate "loading" of the page.
