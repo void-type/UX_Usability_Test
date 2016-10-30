@@ -3,11 +3,11 @@ This mockup is only to automate testing for more accurate results of A/B testing
 
 ## How To Use
 1. Download the files.
-2. Install NPM and then install live-server by using the command 
+2. Install Node.js. Then using the Node Package Manager, NPM, install live-server by using the command: 
 ```
 npm install live-server -g
 ```
-3. Run the site by navigating to the root site folder and running
+3. Run the site by navigating to the root site folder and running:
 ```
 live-server
 ```
