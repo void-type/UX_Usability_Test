@@ -25,7 +25,7 @@
     function endTest(testName) {
         hidePage();
         deltaTime = Date.now() - startTime;
-        console.log(testName + ": " + deltaTime);
+        console.log(testName + ": " + (deltaTime / 1000));
         startTime = null;
 
         let toggleables = document.getElementsByClassName("testToggle");
